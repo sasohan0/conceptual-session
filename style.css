@@ -13,6 +13,7 @@ body{
 }
 .photo img{
     width: 250px;
+    
 }
 .details-btn{
     padding: 15px 50px;
@@ -24,4 +25,25 @@ body{
     background-color: green;
     color: red;
     cursor: pointer;
+}
+.second-section{
+    text-align: center;
+}
+.dhaka{
+    width: 250px;
+    border: 1px solid grey;
+    box-shadow: grey;
+}
+.div-img img{
+    width: 100%;
+}
+
+.all-divisions{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.btn{
+    background-color: skyblue;
+    border: none;
 }
