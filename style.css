@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(rgb(160, 28, 28),green,yellow) ;
 }
 .title{
     color: green;
@@ -32,7 +33,7 @@ body{
 .dhaka{
     width: 250px;
     border: 1px solid grey;
-    box-shadow: grey;
+    box-shadow: 4px 4px 12px gray;
 }
 .div-img img{
     width: 100%;
@@ -46,4 +47,12 @@ body{
 .btn{
     background-color: skyblue;
     border: none;
+    border-radius:  5px;
+    font: 16px
+    ;
+}
+.btn:hover{
+    background-color: slategray;
+    color: white;
+    cursor: text;
 }
