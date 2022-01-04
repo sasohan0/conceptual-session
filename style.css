@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    color: green;
+    text-align: center;
+}
+.parent{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.photo img{
+    width: 250px;
+}
+.details-btn{
+    padding: 15px 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+}
+.details-btn:hover{
+    background-color: green;
+    color: red;
+    cursor: pointer;
+}
